@@ -7,6 +7,10 @@
 *.dll
 *.so
 *.dylib
+*.msi
+dist/
+build/
+release
 
 # Test binary, built with `go test -c`
 *.test
@@ -17,9 +21,26 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
+# Local configuration
+config.json
+
 # Go workspace file
 go.work
 go.work.sum
+*.test
+*.out
 
 # env file
 .env
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
