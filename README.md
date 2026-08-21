@@ -34,7 +34,7 @@ Example:
 
 ```json
 {
-  "server": "10.1.100.12:3551",
+  "server": "192.168.0.10:3551",
   "poll_interval": "5s",
   "shutdown": {
     "enabled": true,
