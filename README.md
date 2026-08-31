@@ -105,16 +105,6 @@ The current release is:
 1.0.0
 ```
 
-Create the Git tag after committing the release:
-
-```powershell
-git add .
-git commit -m "Release v1.0.0"
-git tag -a v1.0.0 -m "UPS Monitor v1.0.0"
-git push origin main
-git push origin v1.0.0
-```
-
 ## License
 
 No license has been selected for the project yet.
